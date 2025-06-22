@@ -58,7 +58,7 @@ kubectl patch gateway bookinfo-gateway -n bookinfo --type=json \
   -p='[{"op": "replace", "path": "/spec/servers/0/port/number", "value": 80}]'
 
 # Apply Telemetry for access logging
-kubectl apply -f istio-access-telemetry.yaml
+kubectl apply -f telemetry-access-logging.yaml
 
 echo "Setup complete."
 echo "Bookinfo available at: http://$ALB_HOSTNAME/productpage"
