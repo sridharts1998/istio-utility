@@ -1,6 +1,8 @@
 # Istio Bootstrap with Bookinfo App
 
-This repo contains a ready-to-use script to install Istio using Helm and deploy the popular **Bookinfo** sample application for Istio traffic management practice.
+This repository provides a ready-to-use script to install Istio using Helm and deploy the popular **Bookinfo** sample application for hands-on Istio traffic management practice.
+
+It is especially useful in **vanilla Kubernetes clusters** or **time-limited lab environments** , where fast and repeatable setup is essential. The script automates installation of the Istio control plane, ingress gateway, and a demo application, making it ideal for experimentation with features like traffic shifting, fault injection, circuit breaking, and observability.
 
 ## Features
 
