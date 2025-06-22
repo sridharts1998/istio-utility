@@ -10,7 +10,6 @@ set -euo pipefail
 # Install istioctl CLI
 curl -L https://istio.io/downloadIstio | sh -
 export PATH="$PATH:$HOME/istio-1.26.2/bin"
-istioctl version
 
 # Install Helm
 curl -sSL https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
